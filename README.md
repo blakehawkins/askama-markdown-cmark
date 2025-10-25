@@ -1,10 +1,9 @@
 An `askama` filter to render `markdown` to html.
 
-## Example
+## Example:
 
 ```rust
 use askama::Template;
-
 use askama_markdown_cmark::filters;
 
 #[derive(Template)]
@@ -13,9 +12,8 @@ struct Example<'a> {
     content: &'a str,
 }
 
-fn main() -> Result<()> {
+fn main() -> std::io::Result<()> {
     println!("{}", Example { content: "## Hello world\n\nTesting ~~x~~ **y** _z_\n" }.render().unwrap());
-
     Ok(())
 }
 ```
