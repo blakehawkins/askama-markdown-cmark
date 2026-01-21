@@ -22,6 +22,7 @@ pub mod filters {
     ///     Ok(())
     /// }
     /// ```
+    #[askama::filter_fn]
     pub fn markdown_cmark<T: fmt::Display>(
         s: T,
         _: &dyn askama::Values,

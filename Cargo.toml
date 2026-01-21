@@ -1,6 +1,6 @@
 [package]
 name = "askama-markdown-cmark"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["blakehawkins <blake.hawkins.11@gmail.com>"]
 edition = "2024"
 description = "Askama filter for markdown, using pulldown-cmark."
@@ -11,5 +11,5 @@ keywords = ["askama", "templating", "markdown", "md", "commonmark"]
 license = "Apache-2.0/MIT"
 
 [dependencies]
-askama = { version = "0.14", features = ["derive"] }
+askama = { version = "0.15", features = ["derive"] }
 pulldown-cmark = "0.13"
