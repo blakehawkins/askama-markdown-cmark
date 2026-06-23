@@ -1,3 +1,7 @@
+![Crates.io Version](https://img.shields.io/crates/v/askama-markdown-cmark)
+![Crates.io License](https://img.shields.io/crates/l/askama-markdown-cmark)
+![Crates.io Total Downloads](https://img.shields.io/crates/d/askama-markdown-cmark)
+
 An `askama` filter to render `markdown` to html.
 
 ## Example:
